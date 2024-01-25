@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url('./images/chalk-rubbed-out-on-blackboard-600nw-226458436.webp');
+    background-size: cover;
+    height: 850px;
+    background-repeat: no-repeat;
+}
+
+.calculatorWebsite{
+    display: flex;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 35pt;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.calculator{
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 220px;
+    margin-top: 5px;
+}
+
+#inputForDisplayOfCalcualtions{
+    width: 456px;
+    color: black;
+    font-size: 25pt;
+    height: 100px;
+    padding-left: 40px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+    background-color: rgb(201, 201, 201);
+    border-color: transparent;
+}
+
+.MainOperators{
+    background-color: rgb(255, 153, 1);
+}
+
+#keysForCalculator{
+    display: float;
+    width: 440px;
+    margin-left: 20px;
+}
+
+.OpreatorstypeTwo{
+    background-color: rgb(51, 51, 51);
+}
+
+button{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    margin-left: 20px;
+    border: transparent;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 20pt;
+    }
+
+    .calculator{
+        width: 350px;
+        border-radius: 10px;
+        background-color: white;
+        margin-left: -130px;
+        height: 400px;
+        margin-top: 100px;
+    }
+    
+    #inputForDisplayOfCalcualtions{
+        width: 306px;
+        color: black;
+        font-size: 25pt;
+        height: 60px;
+        padding-left: 40px;
+        border-radius: 10px 10px 0px 0px;
+        margin-bottom: 20px;
+        background-color: rgb(201, 201, 201);
+        border-color: transparent;
+    }
+    
+    .MainOperators{
+        background-color: rgb(255, 153, 1);
+    }
+    
+    #keysForCalculator{
+        width: 50px;
+        display: flex;
+        margin-left: 20px;
+    }
+    
+    .OpreatorstypeTwo{
+        background-color: rgb(51, 51, 51);
+    }
+    
+    button{
+        width: 45px;
+        height: 45px;
+        margin-bottom: 10px;
+        border-radius: 50px;
+        margin-left: 20px;
+        border: transparent;
+        background-color: rgb(29, 29, 29);
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .flexed{
+        display: block;
+    }
+}
